@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+BUILD_DIR=$1
+
+if [ -d "${BUILD_DIR}/WEB-INF" ] && [ -f "${BUILD_DIR}/WEB-INF/web.xml" ]; then
+    echo "JavaWeb"
+    exit 0
+fi
+
+echo "no"
+exit 1

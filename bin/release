@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require 'yaml'
+
+yml = {
+    'addons' => [],
+    'config_vars' => {},
+    'default_process_types' => {
+        'web' => './bin/catalina.sh run'
+    }
+}.to_yaml
+
+puts yml
+

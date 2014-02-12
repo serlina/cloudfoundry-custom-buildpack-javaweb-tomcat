@@ -1,0 +1,5 @@
+---
+base: http://cf-static.xae.xiaomi.com
+default:
+  jdk: /binaries/jdk/7/openjdk7-u7-heroku-temaki-b30.tar.gz
+  tomcat: /binaries/tomcat/apache-tomcat-7.0.41.tar.gz
